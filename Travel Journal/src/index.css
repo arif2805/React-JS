@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500;700;800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  height: 100px;
+  display: flex;
+  margin: 10px ;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(251, 85, 85);
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+ 
+}
+p{
+  font-size: 1rem;
+}
+h2{
+  margin-bottom: 1rem;
+}
+.nav--logo{
+  max-width: 50px;
+}
+.card{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+  max-height: 600px;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: 2rem;
+ 
+}
+.card--stats{
+  margin: 2rem 0;
+ 
+}
+.card--image{
+ width: 100%;
+  border-radius: 10px;
+}
+.card--icon{
+  width: 1rem;
+ 
+}
+.stats-top{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.location{
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.travel-date{
+  font-weight: 600;
+}
+a{
+  color: #000;
+}
+a:hover{
+  color: #ba5656;
+}
